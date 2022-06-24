@@ -64,6 +64,20 @@
   --bs-body-bg: #fff;
 }
 
+
+#wrapper {
+  width: 100%;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+  width: 300px;
+  float:left; /* add this */
+  margin-right: 20px;
+}
+#second {
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
 *,
 *::before,
 *::after {
